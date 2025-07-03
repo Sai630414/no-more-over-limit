@@ -1,8 +1,8 @@
 (function () {
     'use strict';
 
-    const originalReg = "23mic7189"; // Your registration number
-    const password = "5JukPPmr";     // Your password
+    const originalReg = ""; // Your registration number
+    const password = "";     // Your password
 
     const supers = { '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹' };
     const toSuper = str => str.split('').map(c => supers[c] || c).join('');
